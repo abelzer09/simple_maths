@@ -1,6 +1,12 @@
+import { useReducer } from "react";
+import "./styles.css"
 
+function reducer() {
+  
+}
 
 function App() {
+  const [state, dispatch] = useReducer(reducer)
   return (
     <div className="project-grid">
       <div className="display">
